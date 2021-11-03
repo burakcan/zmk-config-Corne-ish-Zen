@@ -14,7 +14,7 @@
                 compatible = "zmk,keymap";
 
                 default_layer {
-                        label = "COLEMAK";
+                        label = "COLMAK";
 // -----------------------------------------------------------------------------------------
 // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BKSP |
 // | CTRL |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
@@ -24,7 +24,7 @@
    &kp TAB   &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L  &kp U     &kp Y   &kp BSPC    &kp BSPC
    &kp LCTRL &mt LSHIFT A &kp R &kp S &kp T &kp G   &kp M &kp N  &kp E     &kp I   &mt RSHIFT O &kp SQT
    &kp LSHFT &kp Z &kp X &kp C &kp D &kp V   &kp K &kp H  &kp SEMI &kp COMMA &kp DOT &kp ESC
-                  &kp LGUI &mo 1 &kp SPACE   &kp RET &mo 2 &kp RALT
+                &kp LALT &kp LGUI &lt 1 SPACE   &lt 2 RET &kp RGUI &kp LCTRL
                         >;
                 };
                 lower_layer {
